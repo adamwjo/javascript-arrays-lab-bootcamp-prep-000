@@ -28,5 +28,8 @@ function appendKitten(kitten) {
 
 function removeFirstKitten() {
   return kittens.slice(1)
+}
 
+function removeLastKitten() {
+  return kittens.slice(-1)
 }
